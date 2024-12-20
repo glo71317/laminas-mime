@@ -22,17 +22,26 @@
         }
     },
     "abandoned": "symfony/mime",
+    "repositories": [
+        {
+            "type" : "vcs",
+            "url" : "git@github.com:magento-commerce/laminas-mail.git"
+        }
+    ],
     "require": {
         "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
         "laminas/laminas-stdlib": "^2.7 || ^3.0"
     },
     "require-dev": {
         "laminas/laminas-coding-standard": "~2.4.0",
-        "laminas/laminas-mail": "^2.19.0",
+        "magento/laminas-mail": "dev-develop",
         "phpunit/phpunit": "~9.5.25"
     },
     "suggest": {
         "laminas/laminas-mail": "Laminas\\Mail component"
+    },
+    "replace": {
+        "laminas/laminas-mime": "^2.12"
     },
     "autoload": {
         "psr-4": {
