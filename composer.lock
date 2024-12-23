@@ -505,12 +505,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:magento-commerce/laminas-mail.git",
-                "reference": "01a3f3beadcf4ce40c5adc467d62af15fe83adc0"
+                "reference": "137d3ecbd77a11426b4f4bf598f7920967a99fcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-commerce/laminas-mail/zipball/01a3f3beadcf4ce40c5adc467d62af15fe83adc0",
-                "reference": "01a3f3beadcf4ce40c5adc467d62af15fe83adc0",
+                "url": "https://api.github.com/repos/magento-commerce/laminas-mail/zipball/137d3ecbd77a11426b4f4bf598f7920967a99fcb",
+                "reference": "137d3ecbd77a11426b4f4bf598f7920967a99fcb",
                 "shasum": ""
             },
             "require": {
@@ -597,7 +597,7 @@
                 "rss": "https://github.com/laminas/laminas-mail/releases.atom"
             },
             "abandoned": "symfony/mailer",
-            "time": "2024-12-20T11:15:43+00:00"
+            "time": "2024-12-20T16:35:30+00:00"
         },
         {
             "name": "myclabs/deep-copy",
