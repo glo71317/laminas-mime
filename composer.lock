@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0cf06ae312f4d271e1fc70713134b1d",
+    "content-hash": "191acf4ae5790e65e077b71f18aeac07",
     "packages": [
         {
             "name": "laminas/laminas-stdlib",
@@ -505,20 +505,20 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:magento-commerce/laminas-mail.git",
-                "reference": "137d3ecbd77a11426b4f4bf598f7920967a99fcb"
+                "reference": "50ff495744f06b1ea2aa701e7945a25c0098621a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-commerce/laminas-mail/zipball/137d3ecbd77a11426b4f4bf598f7920967a99fcb",
-                "reference": "137d3ecbd77a11426b4f4bf598f7920967a99fcb",
+                "url": "https://api.github.com/repos/magento-commerce/laminas-mail/zipball/50ff495744f06b1ea2aa701e7945a25c0098621a",
+                "reference": "50ff495744f06b1ea2aa701e7945a25c0098621a",
                 "shasum": ""
             },
             "require": {
                 "ext-iconv": "*",
                 "laminas/laminas-loader": "^2.9.0",
-                "laminas/laminas-mime": "dev-develop",
                 "laminas/laminas-stdlib": "^3.17.0",
                 "laminas/laminas-validator": "^2.31.0",
+                "magento/laminas-mime": "dev-develop",
                 "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
                 "symfony/polyfill-intl-idn": "^1.27.0",
                 "symfony/polyfill-mbstring": "^1.27.0",
@@ -597,7 +597,7 @@
                 "rss": "https://github.com/laminas/laminas-mail/releases.atom"
             },
             "abandoned": "symfony/mailer",
-            "time": "2024-12-20T16:35:30+00:00"
+            "time": "2024-12-23T09:48:07+00:00"
         },
         {
             "name": "myclabs/deep-copy",
