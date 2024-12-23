@@ -1,5 +1,5 @@
 {
-    "name": "laminas/laminas-mime",
+    "name": "magento/laminas-mime",
     "description": "Create and parse MIME messages and parts",
     "license": "BSD-3-Clause",
     "keywords": [
