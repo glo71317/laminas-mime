@@ -24,8 +24,8 @@
     "abandoned": "symfony/mime",
     "repositories": [
         {
-            "type" : "vcs",
-            "url" : "git@github.com:magento-commerce/laminas-mail.git"
+            "type": "composer",
+            "url": "https://connect20-qa01.magedevteam.com/"
         }
     ],
     "require": {
@@ -34,7 +34,7 @@
     },
     "require-dev": {
         "laminas/laminas-coding-standard": "~2.4.0",
-        "magento/laminas-mail": "dev-develop",
+        "magento/laminas-mail": "~1.0.0",
         "phpunit/phpunit": "~9.5.25"
     },
     "suggest": {
@@ -68,5 +68,6 @@
     },
     "conflict": {
         "zendframework/zend-mime": "*"
-    }
+    },
+    "minimum-stability": "beta"
 }

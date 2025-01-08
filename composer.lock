@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "191acf4ae5790e65e077b71f18aeac07",
+    "content-hash": "2e5f4aa2f4a0b89450c03533099ab8eb",
     "packages": [
         {
             "name": "laminas/laminas-stdlib",
@@ -501,17 +501,11 @@
         },
         {
             "name": "magento/laminas-mail",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:magento-commerce/laminas-mail.git",
-                "reference": "50ff495744f06b1ea2aa701e7945a25c0098621a"
-            },
+            "version": "1.0.0-beta104",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-commerce/laminas-mail/zipball/50ff495744f06b1ea2aa701e7945a25c0098621a",
-                "reference": "50ff495744f06b1ea2aa701e7945a25c0098621a",
-                "shasum": ""
+                "url": "https://connect20-qa01.magedevteam.com/archives/magento/laminas-mail/magento-laminas-mail-1.0.0.0-beta104.zip",
+                "shasum": "4b06f58d36daa3acb9c55828e092cdfe83cbf5ba"
             },
             "require": {
                 "ext-iconv": "*",
@@ -539,7 +533,6 @@
             "suggest": {
                 "laminas/laminas-servicemanager": "^3.21 when using SMTP to deliver messages"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laminas": {
@@ -552,33 +545,6 @@
                     "Laminas\\Mail\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "LaminasTest\\Mail\\": "test/"
-                }
-            },
-            "scripts": {
-                "check": [
-                    "@cs-check",
-                    "@static-analysis",
-                    "@test"
-                ],
-                "cs-check": [
-                    "phpcs"
-                ],
-                "cs-fix": [
-                    "phpcbf"
-                ],
-                "static-analysis": [
-                    "psalm --shepherd --stats"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ],
-                "test-coverage": [
-                    "phpunit --colors=always --coverage-clover clover.xml"
-                ]
-            },
             "license": [
                 "BSD-3-Clause"
             ],
@@ -587,17 +553,7 @@
             "keywords": [
                 "laminas",
                 "mail"
-            ],
-            "support": {
-                "issues": "https://github.com/laminas/laminas-mail/issues",
-                "forum": "https://discourse.laminas.dev",
-                "chat": "https://laminas.dev/chat",
-                "source": "https://github.com/laminas/laminas-mail",
-                "docs": "https://docs.laminas.dev/laminas-mail/",
-                "rss": "https://github.com/laminas/laminas-mail/releases.atom"
-            },
-            "abandoned": "symfony/mailer",
-            "time": "2024-12-23T09:48:07+00:00"
+            ]
         },
         {
             "name": "myclabs/deep-copy",
@@ -661,16 +617,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v5.3.1",
+            "version": "v5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b"
+                "reference": "447a020a1f875a434d62f2a401f53b82a396e494"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8eea230464783aa9671db8eea6f8c6ac5285794b",
-                "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/447a020a1f875a434d62f2a401f53b82a396e494",
+                "reference": "447a020a1f875a434d62f2a401f53b82a396e494",
                 "shasum": ""
             },
             "require": {
@@ -713,9 +669,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.3.1"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.4.0"
             },
-            "time": "2024-10-08T18:51:32+00:00"
+            "time": "2024-12-30T11:07:19+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -2914,10 +2870,8 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": {
-        "magento/laminas-mail": 20
-    },
+    "minimum-stability": "beta",
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
