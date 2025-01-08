@@ -22,12 +22,6 @@
         }
     },
     "abandoned": "symfony/mime",
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://connect20-qa01.magedevteam.com/"
-        }
-    ],
     "require": {
         "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
         "laminas/laminas-stdlib": "^2.7 || ^3.0"
@@ -68,6 +62,5 @@
     },
     "conflict": {
         "zendframework/zend-mime": "*"
-    },
-    "minimum-stability": "beta"
+    }
 }
